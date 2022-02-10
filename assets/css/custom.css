@@ -29,3 +29,10 @@
 .window-50{
     width: 50%;
 }
+
+.text-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
