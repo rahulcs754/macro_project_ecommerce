@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+
+    <!-- Add lib -->
+    <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+</head>
+<body>
+    
+<div class="rs-container">
+
+        <!--- Header Part -->
+        <div class="rs-row">
+            <div class="col-12">
+
+                <header class="header">
+                    <h1 class="header-logo"><a href="#">Watch World</a></h1>
+                    <div class="header-search">
+                         <input type="text" class="header-input field-item" placeholder="Search">
+                         <div class="error-icon header-error-icon"><i class="fas fa-search input-error-icon header-search-icon"></i></div>
+                     </div>
+                     <ul class="header-nav">
+                      <li><a href="#"> Home </a></li>
+                      <li><a href="#" >
+                        <div class="badge" > 
+                            <i class="fa fa-cart-arrow-down badge-icon" ></i> 
+                            <div class="badge-number">10</div>
+                        </div>
+                        </a>
+                      <li>
+                        <button class="header-btn"> 
+                           <a href="#">Login</a>
+                        </button>
+                    </li>
+                    </ul>
+                </header> 
+
+            </div>
+        </div>
+
+        <!-- Body Part --->
+
+
+        <!-- watches -->       
+        <div class="rs-row m-l">
+            
+            <div class="col-2">
+
+                <div class="f-s text-filter"><p>Filter </p> <p>Clear</p></div>
+                
+                <ul class="list mt-s">
+                    <div class="list-title f-s">Price</div>
+                    <li class="list-item-stacked">  
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </li> 
+
+                    <div class="list-title f-s">Category</div>
+                    <li class="list-item-stacked">  
+                        <input  name="checkbox" type="checkbox" checked>
+                            Man Watch
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="checkbox" checked>
+                            Woman Watch
+                    </li>
+                    <div class="list-title f-m">Rating</div>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                            5 Star Review 
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                            4 Star Review 
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                            3 Star Review 
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                            2 Star Review 
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                            1 Star Review
+                    </li>
+                    <div class="list-title f-m">Sort By</div>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                        Price - low to high
+                    </li>
+                    <li class="list-item-stacked">
+                        <input  name="checkbox" type="radio" checked>
+                        Price - high to low
+                    </li>
+                </ul>
+                  
+                
+
+
+            </div>
+
+            <div class="col-10 ml-l">
+                <div class="rs-row m-l margin-auto">
+                    
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/1.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Astoria Brown Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/5.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header"> 
+                            <div class="card-title">Broadway Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/7.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Soho Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/8.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Digi Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/19.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Abry Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/28.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Woman Pink Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/29.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Soho Bry Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/30.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Soho AB Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="card card-overlay">
+                            <img src="../assets/img/list_img/40.jpg" class="card-image img-c" alt="Card-Image">
+                            <i class="card-close-icon far fa-times-circle"></i>
+                            <div class="card-header">
+                            <div class="card-title">Soho DD Watch</div>
+                            </div>
+                            <div class="card-info">
+                            <p class="card-price">$ 1800</p>
+                            <p class="mrp-price">$ 3000</p>
+                            <p class="card-discount">60% off</p>
+                            </div>
+                            <div class="card-footer ">
+                                <button class="btn btn-primary "> <i class="fas  fa-shopping-cart"></i> Add to Cart </button>
+                                <button class="btn btn-primary "> Buy Now </button>
+                            </div>
+                            </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- component div -->
+
+</body>
+</html>

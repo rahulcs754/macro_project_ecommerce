@@ -9,3 +9,10 @@
     height: 10.5rem;
     object-fit: cover;
 }
+
+.text-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
