@@ -85,7 +85,7 @@
 }
 
 .space-between,
-.mycart-amout-desc{
+.mycart-amount-desc{
     display: flex;
     justify-content: space-between;
 }
