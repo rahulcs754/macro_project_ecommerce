@@ -12,16 +12,15 @@
 
 .text-filter{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
 }
 
 /* Login css */
 
-.login-box{
+.login-box,
+.signup-box{
     display: flex;
-    flex-direction:row ;
     justify-content: center;
     align-items: center;
     margin-top:1rem;
@@ -29,7 +28,8 @@
     height: 80vh;
 }
 
-.login-form{
+.login-form,
+.signup-form{
     padding: 1rem 2rem;
     min-width: 30%;
     border: 1px solid var(--light-black);
@@ -37,6 +37,5 @@
 
 .space-between{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-} 	
+}
