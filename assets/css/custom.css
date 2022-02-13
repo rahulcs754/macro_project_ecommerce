@@ -10,12 +10,6 @@
     object-fit: cover;
 }
 
-.section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .text-filter{
     display: flex;
     justify-content: space-between;
@@ -66,7 +60,6 @@
 
 
 /* Login css */
-
 .login-box,
 .signup-box{
     display: flex;
