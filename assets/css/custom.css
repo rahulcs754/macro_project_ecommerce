@@ -4,22 +4,16 @@
     object-fit: cover;
 }
 
-.text-filter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
+.img-xs {
+    width: 100%;
+    height: 10.5rem;
+    object-fit: cover;
 }
 
-.mycart-amount-list{
+.section {
     display: flex;
-    flex-direction:column ;
-    gap: 2px;
-}
-
-.mycart-amout-desc{
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
 }
 
 .text-filter{
