@@ -4,82 +4,16 @@
     object-fit: cover;
 }
 
-.img-sm {
+.img-xs {
     width: 100%;
     height: 10.5rem;
     object-fit: cover;
 }
 
-.img-xs {
-    width: 100%;
-    height: 7.5rem;
-    object-fit: cover;
-}
-
-.window-100{
-    width: 70%;
-}
-
-.window-80{
-    width: 80%;
-}
-
-.window-70{
-    width: 70%;
-}
-
-.window-60{
-    width: 60%;
-}
-
-.window-50{
-    width: 50%;
-}
-
-
-.width-100{
-    width: 70%;
-}
-
-.width-80{
-    width: 80%;
-}
-
-.width-70{
-    width: 70%;
-}
-
-.width-60{
-    width: 60%;
-}
-
-.width-50{
-    width: 50%;
-}
-
-
 .text-filter{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
-}
-
-.mycart-amount-list{
-    display: flex;
-    flex-direction:column ;
-    gap: 2px;
-}
-.mycart-amout-desc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 /* my cart css  */
@@ -102,27 +36,34 @@
 
 .mycart-box{
     display: flex;
-    flex-direction:row ;
     justify-content: center;
     margin-top:1rem;
     gap:20px;
     width: 60%;
 }
+
 .item-bucket{
     min-width: 30%;
     max-width: 40%;
 }
+
 .mycart-total-details{
     min-width: 30%;
     max-width: 40%;
 }
+
+.mycart-amount-list{
+    display: flex;
+    flex-direction:column ;
+    gap: 2px;
+}
+
 
 /* Login css */
 
 .login-box,
 .signup-box{
     display: flex;
-    flex-direction:row ;
     justify-content: center;
     align-items: center;
     margin-top:1rem;
@@ -137,9 +78,15 @@
     border: 1px solid var(--light-black);
 }
 
-.space-between{
+.space-between,
+.mycart-amount-desc{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+.card-img-horizontal {
+    flex: 1 0 0;
+}
+>>>>>>> eaac909f76bacd66fcccbf6cad51cb8c5313e625
