@@ -16,6 +16,10 @@
     padding: 1rem;
 }
 
+
+a{
+    color: unset;
+}
 /* my cart css  */
 
 .qty {
