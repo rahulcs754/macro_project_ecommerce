@@ -16,10 +16,6 @@
     padding: 1rem;
 }
 
-
-a{
-    color: unset;
-}
 /* my cart css  */
 
 .qty {
@@ -97,3 +93,4 @@ a{
 .card-img-horizontal {
     flex: 1 0 0;
 }
+
