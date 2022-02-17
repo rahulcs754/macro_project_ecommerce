@@ -94,3 +94,9 @@
     flex: 1 0 0;
 }
 
+/* input icon */
+
+.icon-gray{
+    color: var(--light-black) ;
+    cursor: pointer;
+} 
