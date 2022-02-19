@@ -62,12 +62,16 @@
             
             <div class="col-2">
 
-                <div class="f-s text-filter"><p>Filter </p> <p>Clear</p></div>
-                
+                <div class="f-s text-filter"><p class="font-bolder f-s">Filter </p> <p class="font-bolder f-s clear-text"> Clear </p></div>
+                  
                 <ul class="list mt-s">
                     <div class="list-title f-s">Price</div>
-                    <li class="list-item-stacked">  
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <li class="list-item-stacked flex flex-column">  
+                        <div class="flex price-slider">
+                            <div class="price-slider-value f-s">1</div>
+                            <div class="price-slider-value f-s">5000</div> 
+                        </div>
+                        <input type="range" min="1" max="5000" value="50" class="slider d-inline" id="myRange">
                     </li> 
 
                     <div class="list-title f-s">Category</div>

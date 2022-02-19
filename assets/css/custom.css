@@ -100,3 +100,22 @@
     color: var(--light-black) ;
     cursor: pointer;
 } 
+
+/* slider */
+.slider{
+    width: 100%;
+}
+
+/* price filter*/
+.price-slider{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.price-slider-value{
+    padding: 0.2rem;
+}
+
+.clear-text{
+    cursor: pointer;
+}
