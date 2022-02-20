@@ -22,7 +22,7 @@
 
 ### Contributing
 
-Watch world is open source project and anyone can come and contribute in this component.
+Watch world is open source project and anyone can come and contribute in this project.
 
 
 ### Creators
