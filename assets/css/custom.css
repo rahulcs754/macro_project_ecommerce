@@ -119,3 +119,47 @@
 .clear-text{
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .rs-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .small-banner{
+        margin: 1rem 0 0 0;
+    }
+
+    .banner-container{
+        margin: 1rem 0 0 0;
+    }
+
+    .product_container{
+        margin: 1rem 0 0 0;
+    }
+
+    .header-search{
+        display: none;
+    }
+
+    .filter-container{
+        display: none;
+    }
+
+    .wishlist-container{
+        width: 90%;
+    }
+
+    .mycart-box{
+        flex-direction: column;
+        width: 64%;
+    }
+
+    .card-rs{
+        min-width: 28rem;
+    }
+
+    .mycart-total-details{
+        min-width: 68vw;
+    }
+ 
+}
