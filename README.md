@@ -20,6 +20,25 @@
 5. Wishlist Management
 6. Authentication - login | logout | signup
 
+### How to Install and Run the Project
+
+Instructions for running this code to your local system.
+
+Opn your terminal and copy below code line.
+
+`git clone  https://github.com/rahulcs754/macro_project_ecommerce.git`
+
+ After coping link, paste into terminal and hit enter.
+
+Now you have one folder in your local system.
+
+In this forlder have 
+- Assets
+- Pages
+- index.html
+- readme.md
+
+
 ### Contributing
 
 Watch world is open source project and anyone can come and contribute in this project.
