@@ -120,6 +120,30 @@
     cursor: pointer;
 }
 
+
+/*address management*/
+.user-profile-address{
+    align-items: center;
+}
+
+.address-containe{
+    flex-grow: 1;
+}
+
+.address-container{
+    border: 1px solid var(--light-black);
+}
+
+.reset-button{
+    background-color: ;
+}
+
+
+/*move to utitlites class*/
+.border{
+    border:1px solid var(--light-black);
+}
+
 @media (max-width: 767px) {
     .rs-row {
         grid-template-columns: repeat(2, 1fr);
