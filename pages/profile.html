@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+
+    <!-- Add lib -->
+    <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+</head>
+<body>
+    
+<div class="rs-container">
+        <!--- Header Part -->
+        <div class="rs-row">
+            <div class="col-12">
+                <header class="header">
+                    <h1 class="header-logo"><a href="https://watchrs.netlify.app/">Watch World</a></h1>
+                    <div class="header-search">
+                         <input type="text" class="header-input field-item" placeholder="Search">
+                         <div class="error-icon header-error-icon"><i class="fas fas-search input-error-icon header-search-icon"></i></div>
+                     </div>
+                     <ul class="header-nav">
+                      <li><a href=""> Home </a></li>
+                      <li><a href="#" >
+                        <div class="badge" > 
+                            <i class="fa fa-cart-arrow-down badge-icon" ></i> 
+                            <div class="badge-number">10</div>
+                        </div>
+                        </a>
+                      <li>
+                        <button class="header-btn"> 
+                           <a href="login.html">Logout</a>
+                        </button>
+                    </li>
+                    </ul>
+                </header>
+            </div>
+        </div>
+
+        <div class="rs-row m-l">
+            <div class="col-3 sidebar">
+
+                <div class="user-profile-address border p-xs flex gap-sm">
+                    <img src="https://picsum.photos/200" alt="avatar" class="avatar avatar-xs avatar-img-circle" />
+                    <h3 class="font-thiner">Rahul </h3>
+                </div>
+
+                
+                <ul class="list">
+                    <div class="list-title sidebar-title text-mute">ACCOUNT SETTINGS</div>
+                    <li class="list-item">
+                        Profile Information
+                    </li>
+                    <li class="list-item">
+                        Managing Address
+                    </li>
+                    <div class="list-title sidebar-title text-mute">MY STUFF</div>
+                    <li class="list-item">
+                        My Cart
+                    </li>
+                    <li class="list-item">
+                        My Wishlist
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="col-7 address-container p-m">
+                <!-- Profile info -->
+                
+                <div class="address-form">
+                    <form action="">
+                        <fieldset class="border p-xs">
+                            <legend class="text-uppercase font-thiner mb-xs">Profile Information</legend>
+                            <div class="input-box mb-s ">
+                                <input type="text" class="field-item" required="" placeholder="Full Name">
+                            </div>
+                            <div class="input-box mb-s width-50" >
+                                <input type="email" class="field-item" required="" placeholder="email" >
+                            </div>
+                            
+                            <button class="btn btn-primary width-30">Save</button>
+                            <button class="btn width-30 reset-button" type="button" >Reset</button>
+                        </fieldset>
+                    </form>
+                </div>
+                
+
+
+                <!-- Address management -->
+                <div class="font-bolder mb-s text-capitalize ">address management</div>
+                <div class="address-form">
+                    <form action="">
+                        <fieldset class="border p-xs">
+                            <legend class="text-uppercase font-thiner mb-xs">add a new address</legend>
+                            <div class="input-box mb-s ">
+                                <input type="text" class="field-item" required="" placeholder="Full Name">
+                            </div>
+                            <div class="input-box mb-s width-50" >
+                                <input type="text" class="field-item" required="" placeholder="10-digit mobile number" >
+                            </div>
+                            <div class="input-box mb-s width-50">
+                                <input type="text" class="field-item" required="" placeholder="Enter City">
+                            </div>
+                            <div class="input-box mb-s width-50">
+                                <input type="text" class="field-item" required="" placeholder="Enter State">
+                            </div>
+                            <div class="input-box mb-s">
+                                <input type="text" class="field-item" required="" placeholder="Enter Landmark">
+                            </div>
+                            <button class="btn btn-primary width-30">Save</button>
+                            <button class="btn width-30 reset-button" type="button" >Reset</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="address-list mt-l">
+                    <div class="address-box border p-s">
+                        <div class="user-details">
+                            <span >Rahul Shukla</span><span class="ml-m">7881542565</span>
+                        </div>
+                        <div class="address-details">
+                            B-111 Grior Raid, Gwalior, Madhya Pradesh - 474002
+                        </div>
+                        <div class="address-button">
+                            <button class="btn btn-border">Edit</button>
+                            <button class="btn btn-border">Delete</button>
+                        </div>
+                    </div>
+                    <div class="address-box border p-s">
+                        <div class="user-details">
+                            <span >Rahul Shukla</span><span class="ml-m">7881542565</span>
+                        </div>
+                        <div class="address-details">
+                            B-111 Grior Raid, Gwalior, Madhya Pradesh - 474002
+                        </div>
+                        <div class="address-button">
+                            <button class="btn btn-border">Edit</button>
+                            <button class="btn btn-border">Delete</button>
+                        </div>
+                    </div>
+                    <div class="address-box border p-s">
+                        <div class="user-details">
+                            <span >Rahul Shukla</span><span class="ml-m">7881542565</span>
+                        </div>
+                        <div class="address-details">
+                            B-111 Grior Raid, Gwalior, Madhya Pradesh - 474002
+                        </div>
+                        <div class="address-button">
+                            <button class="btn btn-border">Edit</button>
+                            <button class="btn btn-border">Delete</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+         
+        </div>
+
+            
+    </div> <!-- component div -->
+
+</body>
+</html>
